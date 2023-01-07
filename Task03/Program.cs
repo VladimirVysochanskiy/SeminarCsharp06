@@ -8,8 +8,8 @@
 //int N = InputNumberControl("Введите количество чисел Фибоначчи для вывода: ");
 //Print1DArrayColumn(FibonacciLoop(N));
 
-
-int[] FibonacciLoop(int number)
+//Метод Числа Фибоначчи циклом в массив
+/*int[] FibonacciLoop(int number)
 {
     int[] array = new int[number];
     array[0] = 0;
@@ -19,8 +19,8 @@ int[] FibonacciLoop(int number)
         array[i] = array[i-2] + array[i - 1];
     }
     return array;
-}
-
+}*/
+/*
 int InputNumberControl(string text)
 {
     System.Console.Write(text);
@@ -36,19 +36,19 @@ int InputNumberControl(string text)
     }  
     return number;
 }
-
+*/
 void Print1DArrayLine(int[] array)
 {
     Console.WriteLine(string.Join(" | ", array));
 }
-
+/*
 void Print1DArrayColumn(int[] array)
 {
     for (int i = 0; i < array.Length; i++)
     {
         Console.WriteLine(array[i]);
     }
-}
+}*/
 
 int[] RandArray(int length, int fromNum, int toNum)
 {

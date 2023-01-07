@@ -28,6 +28,7 @@ void LineFunctionCrossPoint(double K1, double B1, double K2, double B2)
     }
 }
 
+//Метод контроль ввода целого числа
 int InputNumberControl(string text)
 {
     System.Console.Write(text);
